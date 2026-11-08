@@ -1,0 +1,12 @@
+# Application compilée (build_exe.cmd)
+dist/
+build/
+
+# Module natif compilé et DLL CUDA copiées (build_native.cmd les régénère)
+tflops_meter/bin/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
